@@ -46,7 +46,7 @@ public class BookManagerServiceImpl implements BookManagerService {
     //User Story 5 - Delete Book By Id Solution
     @Override
     public void deleteBookById(Long id){
-            bookManagerRepository.deleteById(id);
+        bookManagerRepository.deleteById(id);
 
     }
 
